@@ -68,10 +68,27 @@ Project created via Code Institute e-commerce walkthrough lessons.
     <li>Update DIRS in 'templates' section of settings.py</li>
     <li>Run the dev server to check everything working</li>
 </ol>
+<br>
 
 ### Making things look nice
 <ol>
     <li>See code in CSS and templates for layout of this project.</li>
     <li>Like static and media files within the settings.py file</li>
     <li>Update urls.py in project to link to static files</li>
+</ol>
+<br>
+
+### Uploading data
+<ol>
+    <li>Create new app called 'products'</li>
+    <li>Inside the products app, create a folder called 'fixtures'</li>
+    <li>Upload json files with categories and product data, upload product images to media folder</li>
+    <li>Create new models in product app models.py file</li>
+    <li>python3 manage.py makemigrations --dry-run</li>
+    <li>python3 manage.py makemigrations if all okay (may need to pip3 install pillow)</li>
+    <li>python3 manage.py migrate --plan</li>
+    <li>python3 manage.py migrate if all okay</li>
+    <li>Register the models in admin.py</li>
+    <li>python3 manage.py loaddata categories</li>
+    <li>Run the server and go to the admin panel to see if products are there</li>
 </ol>
