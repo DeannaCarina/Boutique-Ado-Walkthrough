@@ -2,7 +2,7 @@
 
 Project created via Code Institute e-commerce walkthrough lessons.
 
-Commands for project setup:
+### Commands for project setup:
 <ol>
     <li>pip3 install Django==3.2</li>
     <li>django-admin startproject {project_name} .</li>
@@ -12,8 +12,9 @@ Commands for project setup:
     <li>python3 manage.py createsuperuser</li>
     <li>Add files, commit and push</li>
 </ol>
+<br>
 
-Commands/steps for installing Django AllAuth:
+### Commands/steps for installing Django AllAuth:
 <ol>
     <li>pip3 install django-allauth==0.41.0</li>
     <li>Add authentication backends section from allauth documentation <a href="https://django-allauth.readthedocs.io/en/latest/installation.html">HERE</a></li>
@@ -50,6 +51,16 @@ Commands/steps for installing Django AllAuth:
     <li>mkdir templates</li>
     <li>mkdir templates/allauth</li>
     <li>Add, commit and push changes</li>
-
-
 </ol>
+<br>
+
+### Next steps
+<ol>
+    <li>cp -r ../.pip-modules/lib/python3.7/site-packages/allauth/templates/* ./templates/allauth/</li>
+    <li>IF THE ABOVE DOESNT WORK, TRY: "cp -r /home/gitpod/.pyenv/versions/3.8.12/lib/python3.8/site-packages/allauth/templates/* ./templates/allauth"</li>
+    <li>Delete the openid and tests folders from the allauth templates dir if you don't need them</li>
+    <li>Create a base.html file in the top templates folder</li>
+</ol>
+
+
+2.7, 3, 3.8, 3.9
