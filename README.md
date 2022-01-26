@@ -61,4 +61,8 @@ Project created via Code Institute e-commerce walkthrough lessons.
     <li>Delete the openid and tests folders from the allauth templates dir if you don't need them</li>
     <li>Create a base.html file in the top templates folder</li>
     <li>python3 manage.py startapp {app_name}</li>
+    <li>mkdir -p home/templates/home</li>
+    <li>Create an index.html folder inside the new templates/home folder</li>
+    <li>Create a new view to show the index page, create urls.py in app folder, update urls.py in project folder</li>
+    <li>Update installed apps in settings.py with app name</li>
 </ol>
