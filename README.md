@@ -24,8 +24,8 @@ Commands/steps for installing Django AllAuth:
     <li>python3 manage.py runserver, navigate to the admin panel</li>
     <li>In 'sites' update the domain name to boutiqueado.example.com</li>
     <li>Save, close and stope the server</li>
-    <li>Add the necessary email/account verification settings for email_backend in settings.py:
-        >EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'<br>
+    <li>Add the necessary email/account verification settings for email_backend in settings.py:<br>
+         EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'<br>
          ACCOUNT_AUTHENTICATION_METHOD = 'username_email'<br>
          ACCOUNT_EMAIL_REQUIRED = True<br>
          ACCOUNT_EMAIL_VERIFICATION = 'mandatory'<br>
