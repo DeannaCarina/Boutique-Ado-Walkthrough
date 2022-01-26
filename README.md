@@ -60,7 +60,5 @@ Project created via Code Institute e-commerce walkthrough lessons.
     <li>IF THE ABOVE DOESNT WORK, TRY: "cp -r /home/gitpod/.pyenv/versions/3.8.12/lib/python3.8/site-packages/allauth/templates/* ./templates/allauth"</li>
     <li>Delete the openid and tests folders from the allauth templates dir if you don't need them</li>
     <li>Create a base.html file in the top templates folder</li>
+    <li>python3 manage.py startapp {app_name}</li>
 </ol>
-
-
-2.7, 3, 3.8, 3.9
