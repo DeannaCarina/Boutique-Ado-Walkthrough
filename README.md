@@ -65,4 +65,6 @@ Project created via Code Institute e-commerce walkthrough lessons.
     <li>Create an index.html folder inside the new templates/home folder</li>
     <li>Create a new view to show the index page, create urls.py in app folder, update urls.py in project folder</li>
     <li>Update installed apps in settings.py with app name</li>
+    <li>Update DIRS in 'templates' section of settings.py</li>
+    <li>Run the dev server to check everything working</li>
 </ol>
