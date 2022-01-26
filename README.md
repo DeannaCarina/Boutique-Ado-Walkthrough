@@ -99,3 +99,4 @@ Project created via Code Institute e-commerce walkthrough lessons.
     <li>Add any necessary meta classes to the model in models.py</li>
     <li>In admin.py add any colums to the model that you want to see for products</li>
 </ol>
+
