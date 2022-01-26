@@ -68,3 +68,10 @@ Project created via Code Institute e-commerce walkthrough lessons.
     <li>Update DIRS in 'templates' section of settings.py</li>
     <li>Run the dev server to check everything working</li>
 </ol>
+
+### Making things look nice
+<ol>
+    <li>See code in CSS and templates for layout of this project.</li>
+    <li>Like static and media files within the settings.py file</li>
+    <li>Update urls.py in project to link to static files</li>
+</ol>
