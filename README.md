@@ -92,3 +92,10 @@ Project created via Code Institute e-commerce walkthrough lessons.
     <li>python3 manage.py loaddata categories</li>
     <li>Run the server and go to the admin panel to see if products are there</li>
 </ol>
+<br>
+
+### Making the admin panel 'pretty'
+<ol>
+    <li>Add any necessary meta classes to the model in models.py</li>
+    <li>In admin.py add any colums to the model that you want to see for products</li>
+</ol>
