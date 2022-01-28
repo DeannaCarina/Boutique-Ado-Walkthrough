@@ -100,3 +100,9 @@ Project created via Code Institute e-commerce walkthrough lessons.
     <li>In admin.py add any colums to the model that you want to see for products</li>
 </ol>
 
+### Making the shopping bag
+<ol>
+    <li>Create new app called 'bag' (python3 manage.py startapp bag)</li>
+    <li>Add the new app to settings.py</li>
+</ol>
+
