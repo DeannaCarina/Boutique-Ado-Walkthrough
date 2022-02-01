@@ -2,6 +2,14 @@
 
 Project created via Code Institute e-commerce walkthrough lessons.
 
+for some reason, each time I open VE I need to reinstall all packages.
+<ol>
+    <li>pip3 install Django==3.2</li>
+    <li>pip3 install django-allauth==0.41.0</li>
+    <li>pip3 install pillow</li>
+    <li>pip3 install django-crispy-forms</li>
+</ol>
+
 ### Commands for project setup:
 <ol>
     <li>pip3 install Django==3.2</li>
