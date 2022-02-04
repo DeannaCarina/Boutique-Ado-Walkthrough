@@ -12,9 +12,9 @@ class OrderForm(forms.ModelForm):
             'street_address1',
             'street_address2',
             'town_or_city',
-            'postcode',
-            'country',
             'county',
+            'country',
+            'postcode',
         )
 
     def __init__(self, *args, **kwargs):
@@ -27,12 +27,12 @@ class OrderForm(forms.ModelForm):
             'full_name': 'Full Name',
             'email': 'Email Address',
             'phone_number': 'Phone Number',
-            'country': 'Country',
-            'postcode': 'Postal Code',
-            'town_or_city': 'Town or City',
             'street_address1': 'Street Address 1',
             'street_address2': 'Street Address 2',
+            'town_or_city': 'Town or City',
             'county': 'County',
+            'country': 'Country',
+            'postcode': 'Postal Code',
         }
 
         self.fields['full_name'].widget.attrs['autofocus'] = True
