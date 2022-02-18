@@ -13,6 +13,8 @@ for some reason, each time I open VE I need to reinstall all packages.
     <li>pip3 install dj_database_url</li>
     <li>pip3 install psycopg2-binary</li>
     <li>pip3 install gunicorn</li>
+    <li>pip3 install boto3</li>
+    <li>pip3 install django-storages</li>
     <li>Run: pip install -r requirements.txt</li>
 </ol>
 
