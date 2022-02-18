@@ -10,6 +10,8 @@ for some reason, each time I open VE I need to reinstall all packages.
     <li>pip3 install django-crispy-forms</li>
     <li>pip3 install stripe</li>
     <li>pip3 install django-countries</li>
+    <li>pip3 install dj_database_url</li>
+    <li>pip3 install psycopg2-binary</li>
 </ol>
 
 ### Commands for project setup:
